@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.predictor-form {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.predictor-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0077cc;
+}
+
+.predictor-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.predictor-form select,
+.predictor-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.result-box {
+  margin-top: 30px;
+  padding: 20px;
+  background: #e6f2ff;
+  border-left: 4px solid #0077cc;
+}
